@@ -1,0 +1,33 @@
+{
+  "name": "internship-capstone",
+  "version": "3.0.0",
+  "description": "Production-Ready Full-Stack Internship Portal with Express, SQLite, Helmet, Compression, Health Checks, and Responsive Accessible Frontend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "cross-env NODE_ENV=test node --test tests/api.test.js"
+  },
+  "keywords": [
+    "internship",
+    "portal",
+    "express",
+    "sqlite",
+    "accessibility",
+    "full-stack",
+    "production-ready"
+  ],
+  "author": "Avish1810",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "express-validator": "^7.1.0",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  }
+}
